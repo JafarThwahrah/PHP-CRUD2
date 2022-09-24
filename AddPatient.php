@@ -49,7 +49,6 @@ if (isset($_POST['insert'])) {
         echo "<script>alert('Something went wrong. Please try again');</script>";
         echo "<script>window.location.href='index.php'</script>";
     }
-
 }
 
 
@@ -72,7 +71,7 @@ if (isset($_POST['insert'])) {
 
 <body>
 
-<h3 class="text-center">Add new Patient</h3>
+    <h3 class="text-center">Add new Patient</h3>
 
 
     <form class="container-lg" name="createForm" method="POST">
