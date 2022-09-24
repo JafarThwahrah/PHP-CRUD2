@@ -45,7 +45,7 @@
 
       <div class="card text-bg-light mb-3 mt-5" style="max-width: 50rem;">
         <div class="card-header p-5">
-          <h2> Paitent Number:<?php echo ($result->ID); ?></h2>
+          <h2> Paitent ID:<?php echo ($result->ID); ?></h2>
         </div>
         <div class="card-body p-5 ">
           <h4 class="card-text p-2">Patient Name: <?php echo ($result->Name); ?></h4>
